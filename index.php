@@ -4,6 +4,6 @@
         <title>PHP Test</title>
     </head>
     <body>
-        <?php echo '<p>Hello World  pipeline 23232</p>'; ?>
+        <?php echo '<p>Hello World  pipelineeee</p>'; ?>
     </body>
 </html>
