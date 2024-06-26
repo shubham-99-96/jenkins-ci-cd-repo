@@ -1,9 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTPS} !=on
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-RewriteCond %{REQUEST_METHOD} !POST
-RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
-RewriteRule ^ https://%{HTTP_HOST}/%1 [NC,L,R]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.php [NC,L]
-
